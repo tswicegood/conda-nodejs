@@ -1,6 +1,6 @@
 package:
   name: nodejs
-  version: 0.12.5
+  version: 0.12.7
 
 build:
   number: {{environ.get('BINSTAR_BUILD', 1)}}
@@ -10,9 +10,9 @@ source:
   url: https://nodejs.org/dist/v0.12.5/node-v0.12.5-linux-x64.tar.gz [linux64]
   md5: d27a934de4763550e0f9fd180428b0be [linux64]
 
-  fn: node-v0.12.5-darwin-x64.tar.gz [osx]
-  url: https://nodejs.org/dist/v0.12.5/node-v0.12.5-darwin-x64.tar.gz [osx]
-  md5: 0d7ed0f9aab35c791b8064f18b6e2745 [osx]
+  fn: node-v0.12.7-darwin-x64.tar.gz [osx]
+  url: https://nodejs.org/dist/v0.12.7/node-v0.12.7-darwin-x64.tar.gz [osx]
+  md5: ca4897256e00f5b8523cb84e85ad83ea [osx]
 
 test:
   commands:
