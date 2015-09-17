@@ -6,9 +6,9 @@ build:
   number: {{environ.get('BINSTAR_BUILD', 1)}}
 
 source:
-  fn: node-v0.12.5-linux-x64.tar.gz [linux64]
-  url: https://nodejs.org/dist/v0.12.5/node-v0.12.5-linux-x64.tar.gz [linux64]
-  md5: d27a934de4763550e0f9fd180428b0be [linux64]
+  fn: node-v0.12.7-linux-x64.tar.gz [linux64]
+  url: https://nodejs.org/dist/v0.12.7/node-v0.12.7-linux-x64.tar.gz [linux64]
+  md5: 182175d82395171f299e3a05a2ce70a1 [linux64]
 
   fn: node-v0.12.7-darwin-x64.tar.gz [osx]
   url: https://nodejs.org/dist/v0.12.7/node-v0.12.7-darwin-x64.tar.gz [osx]
