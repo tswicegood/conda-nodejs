@@ -1,5 +1,5 @@
 # NodeJS
 
 ```sh
-conda install nodejs -c malev
+conda install nodejs -c javascript
 ```
