@@ -14,6 +14,10 @@ source:
   url: https://nodejs.org/dist/v4.4.0/node-v4.4.0-darwin-x64.tar.gz [osx]
   sha256: 650c2f1e186a4974304b652321fbb3c4bd22ee7bc7c2c406c6e244dd6a6d38be [osx]
 
+  fn: node-v4.4.0-x64.msi [win]
+  url: https://nodejs.org/dist/v4.4.0/node-v4.4.0-x64.msi [win64]
+  sha256: c87245838da77c601b38752626da8344b8874bedc3fa7d8634924cb70a801fe7 [win64]
+
 test:
   commands:
     - node --help
