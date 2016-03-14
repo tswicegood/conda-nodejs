@@ -3,7 +3,7 @@ package:
   version: 4.4.0
 
 build:
-  number: {{environ.get('BINSTAR_BUILD', 1)}}
+  number: {{environ.get('GIT_DESCRIBE_NUMBER', 0)}}
 
 source:
   fn: node-v4.4.0-linux-x64.tar.gz [linux64]
