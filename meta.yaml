@@ -1,18 +1,18 @@
 package:
   name: nodejs
-  version: 4.3.1
+  version: 4.4.0
 
 build:
   number: {{environ.get('BINSTAR_BUILD', 1)}}
 
 source:
-  fn: node-v4.3.1-linux-x64.tar.gz [linux64]
-  url: https://nodejs.org/dist/v4.3.1/node-v4.3.1-linux-x64.tar.gz [linux64]
-  sha256: b3af1ed18a9150af42754e9a0385ecc4b4e9b493fcf32bf6ca0d7239d636254b [linux64]
+  fn: node-v4.4.0-linux-x64.tar.gz [linux64]
+  url: https://nodejs.org/dist/v4.4.0/node-v4.4.0-linux-x64.tar.gz [linux64]
+  sha256: 114a865effcff2783022ef0fcd30d1e51624d6c28140db0bdc662bcd0f850d8b [linux64]
 
-  fn: node-v4.3.1-darwin-x64.tar.gz [osx]
-  url: https://nodejs.org/dist/v4.3.1/node-v4.3.1-darwin-x64.tar.gz [osx]
-  sha256: 9c0751ee88a47c10269eb930d7ad7b103c2ba875c3a96204ca133dc52fc50826 [osx]
+  fn: node-v4.4.0-darwin-x64.tar.gz [osx]
+  url: https://nodejs.org/dist/v4.4.0/node-v4.4.0-darwin-x64.tar.gz [osx]
+  sha256: 650c2f1e186a4974304b652321fbb3c4bd22ee7bc7c2c406c6e244dd6a6d38be [osx]
 
 test:
   commands:
